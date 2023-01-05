@@ -27,7 +27,7 @@ example of 2: (Paying it forward)
 - Use of this solution when ever possible is recommended because it reduces the burden of managing the error on every function call and also improves performance by not requiring to check the return data for error.
 
 ```js
-function getFirstElementWithStrongArgs(data: [string, ...string][]) {
+function getFirstElementWithStrongArgs(data: [string, ...string[]]) {
   return data[1]; // would not throw error since data is not empty
 }
 ```
